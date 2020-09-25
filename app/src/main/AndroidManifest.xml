@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mifta.project.id.golayfarm">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".login"
+            android:label="Go Lay Farm"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".dashboard"
+            android:label="@string/title_activity_dashboard"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".register" />
+        <activity
+            android:name=".inputDataHasil"
+            android:label="@string/title_activity_input_data_hasil"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".inputDataPenggemukan"
+            android:label="@string/title_activity_input_data_penggemukan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".inputDataPakan"
+            android:label="@string/title_activity_input_data_pakan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".inputDataObat"
+            android:label="@string/title_activity_input_data_obat"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".inputDataKambing"
+            android:label="@string/title_activity_input_data_kambing"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".dataPenjualan"
+            android:label="@string/title_activity_data_penjualan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".dataPenggemukan"
+            android:label="@string/title_activity_data_penggemukan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".dataPakan"
+            android:label="@string/title_activity_data_pakan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".dataObat"
+            android:label="@string/title_activity_data_obat"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".dataKambing"
+            android:label="@string/title_activity_data_kambing"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="mifta.project.id.golayfarm.dashboard">
+    <item
+        android:id="@+id/ex_kambing"
+        android:title="Export Data Kambing"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/ex_obat"
+        android:title="Export Data Pengobatan"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/ex_pakan"
+        android:title="Export Data Pakan"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/ex_gemuk"
+        android:title="Export Data Penggemukan"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/ex_jual"
+        android:title="Export Data Penjualan"
+        app:showAsAction="never" />
+</menu>

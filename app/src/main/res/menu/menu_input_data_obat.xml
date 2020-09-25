@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="mifta.project.id.golayfarm.inputDataObat">
+
+    <item
+        android:id="@+id/menu_edit"
+        android:title="Edit"
+        android:icon="@android:drawable/ic_menu_edit"
+        app:showAsAction="always"
+        android:visible="false"/>
+    <item
+        android:id="@+id/menu_save"
+        android:title="Save"
+        android:icon="@android:drawable/ic_menu_save"
+        app:showAsAction="always"
+        android:visible="false"/>
+</menu>
+
